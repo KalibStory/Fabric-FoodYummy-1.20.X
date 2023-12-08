@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "foodyummy",
+	"version": "${version}",
+	"name": "FoodYummy",
+	"description": "Adds custom foods and recipes to the game!",
+	"authors": [
+		"Kalib Story"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/kalibstory"
+	},
+	"license": "MIT",
+	"icon": "assets/foodyummy/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.kalibconnell.foodyummy.FoodYummy"
+		],
+		"client": [
+			"com.kalibconnell.foodyummy.FoodYummyClient"
+		],
+		"fabric-datagen": [
+			"com.kalibconnell.foodyummy.FoodYummyDataGenerator"
+		]
+	},
+	"mixins": [
+		"foodyummy.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.1",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
