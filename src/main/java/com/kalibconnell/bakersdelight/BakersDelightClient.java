@@ -1,11 +1,13 @@
-package com.kalibconnell.foodyummy;
+package com.kalibconnell.bakersdelight;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class FoodYummyClient implements ClientModInitializer {
+public class BakersDelightClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
 
     }
+
+
 }

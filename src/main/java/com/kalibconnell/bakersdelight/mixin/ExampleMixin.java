@@ -1,4 +1,4 @@
-package com.kalibconnell.foodyummy.mixin;
+package com.kalibconnell.bakersdelight.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "foodyummy",
+	"id": "bakersdelight",
 	"version": "${version}",
-	"name": "FoodYummy",
+	"name": "Baker's Delight",
 	"description": "Adds custom foods and recipes to the game!",
 	"authors": [
 		"Kalib Story"
@@ -12,21 +12,21 @@
 		"sources": "https://github.com/kalibstory"
 	},
 	"license": "MIT",
-	"icon": "assets/foodyummy/icon.png",
+	"icon": "assets/bakersdelight/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.kalibconnell.foodyummy.FoodYummy"
+			"com.kalibconnell.bakersdelight.BakersDelight"
 		],
 		"client": [
-			"com.kalibconnell.foodyummy.FoodYummyClient"
+			"com.kalibconnell.bakersdelight.BakersDelightClient"
 		],
 		"fabric-datagen": [
-			"com.kalibconnell.foodyummy.FoodYummyDataGenerator"
+			"com.kalibconnell.bakersdelight.BakersDelightDataGenerator"
 		]
 	},
 	"mixins": [
-		"foodyummy.mixins.json"
+		"bakersdelight.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.1",
